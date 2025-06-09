@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Quicksand:wght@300..700&display=swap');
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #2f2f2f;
+  font-family: "Comfortaa", sans-serif;
+  color: white;
+}
+
+.container {
+  width: 360px;
+  height: 740px;
+  margin: 0 auto;
+  background: url('./imgs/Rectangle\ 1\ \(2\).png') no-repeat center center;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 32px;
+  margin-top: 10px;
+}
+
+.bears img {
+  width: 282px;
+  height: 194px;
+  margin: 10px;
+}
+
+.texto {
+  text-align: center;
+  font-size: 29px;
+  margin: 10px 0;
+}
+
+.vermelho {
+  color: red;
+  font-weight: bold;
+}
+
+.emoji img {
+  width: 259px;
+  height: 170px;
+  margin: 10px 0;
+}
+
+.botao {
+  display: inline-block;
+  background-color: rgb(199, 2, 2);
+  color: white;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 10px 20px;
+  border-radius: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 400px) {
+  .container {
+    width: 100vw;
+    height: 100vh;
+    border-radius: 0;
+  }
+
+  .bears img, .emoji img {
+    width: 80px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  .texto {
+    font-size: 16px;
+  }
+}
